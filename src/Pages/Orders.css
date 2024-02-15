@@ -1,0 +1,17 @@
+@font-face{
+    font-family: "reg";
+    src: url(../src/assets/media/fonts/inter/Inter-Regular.ttf) format(truetype);
+}
+  
+@font-face{
+    font-family: "sembd";
+    src: url(../src/assets/media/fonts/inter/Inter-SemiBold.ttf) format(truetype);
+}
+
+h3{
+    font-family: "sembd";
+}
+
+p{
+    font-family: "reg";
+}

@@ -1,0 +1,82 @@
+@font-face{
+    font-family: "reg";
+    src: url(../src/assets/media/fonts/inter/Inter-Regular.ttf) format(truetype);
+}
+
+@font-face{
+    font-family: "med";
+    src: url(../src/assets/media/fonts/inter/Inter-Medium.ttf) format(truetype);
+}
+
+@font-face{
+    font-family: "sembd";
+    src: url(../src/assets/media/fonts/inter/Inter-SemiBold.ttf) format(truetype);
+}
+
+@font-face{
+    font-family: "bold";
+    src: url(../src/assets/media/fonts/Inter-Bold) format(truetype);
+}
+
+.cart{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.406);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 9999;
+}
+
+.hidden{
+    display: none;
+}
+
+.cart-item{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    background-color: white;
+    width: 415px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cart-item b{
+    font-family: "bold";
+}
+
+.cart-products{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.removefromcart{
+    background-color: transparent;
+    border: 2px solid #DBDBDB;
+    width: 32px;
+    height: 32px;
+    color: #DBDBDB;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.cart-end{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart-action{
+    margin-top: 20px;
+}
+
+.cart-price{
+    display: flex;
+    justify-content: space-between;
+    font-family: "bold";
+}
